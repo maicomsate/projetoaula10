@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+     background-image: url(img/vecteezy_technology-connection-circuit-system-design-background_6699632.jpg);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;  */
+    font-family: 'Inter', sans-serif;
+}
+
+#card{
+    width: 400px;
+    height: 60%;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin: auto;
+}
+#foto{
+    margin-left: 20%;
+    align-items: center;
+    width: 60%; 
+    height: 10%; 
+    transition: transform 0.3s ease; 
+
+}
+
+button{
+    background-color: #129BE9;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    height: 68px;
+    width: 100%; 
+    font-size: 36px;
+    font-weight: bold;
+    padding-left:  32px ;
+    padding-right: 32px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2980b9;   
+
+}
+
+button img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+button:hover img {
+    transform: translateX(10px);
+    opacity: 0.8;
+}
+p{
+    margin-bottom: 80px;
+    font-size: 24px;
+    display: none;
+}
+.para:hover p{
+    display: flex;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+    color: aliceblue;
+    width: 30%; 
+    height: 40%; 
+    display: flexbox; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+    padding: 20px; 
+    overflow: hidden; 
+    position: relative; 
+    transition: transform 0.3s ease; 
+}
+
+.card img {
+    margin-left: 20%;
+    align-items: center;
+    width: 60%; 
+    height: 10%; 
+    transition: transform 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
+
+.card:hover img {
+    transform: scale(2.1); 
+    display: grid;
+    animation:reverse;
+    animation-duration: 10s;
+    transition: initial;
+
+    
+}
+
+.card:hover  {
+    transform: scale(1.1); 
+    display: flex;
+    text-align: center;
+    animation-delay: 10s;
+    
+}
